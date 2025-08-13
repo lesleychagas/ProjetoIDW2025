@@ -1,0 +1,74 @@
+/*.color1 { #042608 };
+.color2 { #2a5c0b };
+.color3 { #808f12 };
+.color4 { #faedd9 };
+.color5 { #ea2a15 };*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #ea2a15; 
+}
+/*https://dontpad.com/idw2025*/
+
+/* comentário */
+#cabecalho{
+    background-color: #042608;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+#logo{
+    padding: 10px;
+    max-width: 30vh;
+    height: auto;
+}
+#logo img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+/*#menu{
+    width: 80%;
+    background-color: burlywood;
+    height: 40px;
+}*/
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+#menu a:hover {
+    color: #fff;
+}
+#home, #sobreMim, #portifolio, #contato{
+    padding-top: 150px;
+}
+#home{
+    background-image: url('../imagens/imgHomeFundo.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home p{
+    width: 80%;
+    padding: 15px;
+    border-radius: 7px;
+    text-align: justify;
+    background-color: #042608;
+    color: #fff;
+    opacity: 95%;
+}
